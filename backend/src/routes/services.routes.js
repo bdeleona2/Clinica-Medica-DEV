@@ -1,0 +1,2 @@
+import { Router } from 'express'; import { makeCrud } from '../controllers/crud.controller.js'; import { Services } from '../models/services.model.js';
+const r = Router(); const c = makeCrud(Services); r.get('/', c.list); r.get('/:id', c.get); r.post('/', c.create); r.put('/:id', c.update); r.delete('/:id', c.remove); export default r;

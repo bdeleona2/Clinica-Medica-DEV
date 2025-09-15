@@ -1,0 +1,1 @@
+import { buildCrud } from './base.js'; export const Patients = buildCrud('patients');

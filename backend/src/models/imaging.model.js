@@ -1,0 +1,1 @@
+import { buildCrud } from './base.js'; export const Imaging = buildCrud('imaging_orders');

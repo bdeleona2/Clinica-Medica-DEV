@@ -1,0 +1,1 @@
+import { buildCrud } from './base.js'; export const Records = buildCrud('medical_records');
