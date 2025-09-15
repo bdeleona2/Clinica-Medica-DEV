@@ -29,6 +29,8 @@ cp .env.local.example .env.local
 npm install --legacy-peer-deps
 
 pnpm dev      # o npm run dev
+
+## el txt usuarios estan todos los usuarios con sus diferentes roles
 ```
 
 La app quedará disponible en http://localhost:3000 y la API en http://localhost:4000/api
