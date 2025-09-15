@@ -1,0 +1,27 @@
+| Rol / Módulo     | Usuario (email)        |
+| ---------------- | ---------------------- |
+| **Admin**        | `admin@clinica.com`    |Clinica123*
+| **Recepción**    | `recep@clinica.com`    |Clinica123*
+| **Caja**         | `caja@clinica.com`     |Clinica123*
+| **Imagenología** | `imagen@clinica.com`   |Clinica123*
+| **Director**     | `director@clinica.com` |Clinica123*
+| **Doctor 1**     | `j.perez@clinica.com`  |Clinica123*
+| **Doctor 2**     | `m.lopez@clinica.com`  |Clinica123*
+| **Paciente 1**   | `engels@example.com`   |Clinica123*
+| **Paciente 2**   | `camila@example.com`   |Clinica123*
+
+cd ../backend
+
+npm install --legacy-peer-deps
+
+npm run start
+
+node seed.js
+
+
+cd ../frontend
+npm install --legacy-peer-deps
+npm run dev
+
+
+npm i html2canvas jspdf xlsx
